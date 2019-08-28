@@ -1,8 +1,8 @@
 # Transit Gateway Deployment for North/South and East/West Inspection 
 
- This terraform template will deploy a complete Transit Gateway(TGW) solution with Palo Alto Networks VM-Series Firewalls to inspect both N/S and E/W traffic. The follow diagram shows what will be deployed:
+ This terraform template and guide will explain how to deploy an AWS Transit Gateway with the VM-Series Firewall on AWS, automate the connection to Panorama, and automatically obtain a BYOL license with an auth code. A Transit Gateway uses a hub and spoke architecture that allows security teams to centralize secure connectivity for VPC-to-VPC, VPC to corporate and VPC to the internet communications. will deploy a complete Transit Gateway(TGW) solution with Palo Alto Networks VM-Series The follow diagram shows what will be deployed:
 
-![tgw-vpc](https://user-images.githubusercontent.com/21991161/53307956-ff23d680-3862-11e9-9fd1-49cbacb696ea.jpg)
+![TGW](https://user-images.githubusercontent.com/21991161/63894705-f0091700-c9b2-11e9-963d-50a22dfeccf5.jpg)
 
 
  This is a quick overview of what components are deployed
