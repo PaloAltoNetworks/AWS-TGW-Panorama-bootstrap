@@ -1,1 +1,0 @@
-# AWS-TGW-Panorama-bootstraping
